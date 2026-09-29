@@ -17,3 +17,15 @@ export const site = {
   email: "clarencejohnson@hotmail.de",
   region: "Mannheim",
 };
+
+/** Anbieterangaben für Impressum und Datenschutz. */
+export const company = {
+  brand: "GuestTap",
+  name: "Johnson Services",
+  owner: "Clarence Johnson",
+  street: "George-Washington-Straße 219",
+  zip: "68300",
+  city: "Mannheim",
+  country: "Deutschland",
+  vatId: "DE452125652",
+};

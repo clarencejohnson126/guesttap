@@ -200,7 +200,7 @@ export const de = {
   },
   footer: {
     claim: "Mehr echte Bewertungen. Mit einem Tap.",
-    legal: "GuestTap ist ein unabhängiges Unternehmen und steht in keiner Verbindung zu Google LLC. Google ist eine Marke der Google LLC.",
+    legal: "GuestTap ist ein Angebot von Johnson Services, Mannheim. GuestTap ist ein unabhängiges Unternehmen und steht in keiner Verbindung zu Google LLC. Google ist eine Marke der Google LLC.",
     imprint: "Impressum",
     privacy: "Datenschutz",
     made: "Gemacht in Mannheim",

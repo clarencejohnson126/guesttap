@@ -200,7 +200,7 @@ export const en: Dict = {
   },
   footer: {
     claim: "More genuine reviews. One tap away.",
-    legal: "GuestTap is an independent company and is not affiliated with or endorsed by Google LLC. Google is a trademark of Google LLC.",
+    legal: "GuestTap is a service by Johnson Services, Mannheim. GuestTap is an independent company and is not affiliated with or endorsed by Google LLC. Google is a trademark of Google LLC.",
     imprint: "Legal notice",
     privacy: "Privacy",
     made: "Made in Mannheim",
