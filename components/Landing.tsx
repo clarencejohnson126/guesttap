@@ -33,7 +33,7 @@ export function Landing({ t, locale }: { t: Dict; locale: Locale }) {
       email: site.email,
       areaServed: ["Mannheim", "Heidelberg", "Ludwigshafen", "Rhein-Neckar"],
       address: { "@type": "PostalAddress", addressLocality: "Mannheim", addressCountry: "DE" },
-      priceRange: "€40-€50",
+      priceRange: "€40-€60",
     },
     {
       "@context": "https://schema.org",

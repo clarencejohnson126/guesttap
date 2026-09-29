@@ -80,7 +80,7 @@ export const de = {
     cta: "Muster anfragen",
     items: [
       { name: "Bewertungsschild", tag: "Zum Aufkleben", price: "40 €", features: ["NFC-Chip: Handy kurz dranhalten, fertig", "Klebt auf Tresen, Tisch, Glas oder Wand", "Design auf Deutsch oder Englisch", "Fertig mit Ihrem Google-Link eingerichtet"] },
-      { name: "Tischständer", tag: "Für Rezeption und Buffet", price: "50 €", features: ["NFC + QR-Code", "Schwarzes Acryl mit edlem Finish", "Design auf Deutsch oder Englisch", "Fertig mit Ihrem Google-Link eingerichtet"] },
+      { name: "Tischständer", tag: "Für Rezeption und Buffet", price: "60 €", features: ["NFC + QR-Code", "Schwarzes Acryl mit edlem Finish", "Design auf Deutsch oder Englisch", "Fertig mit Ihrem Google-Link eingerichtet"] },
     ],
     volume: "Mehrere Stück? Dann gibt's Mengenrabatt.",
     volumeSub: "Für mehrere Schilder oder Ständer machen wir Ihnen gern einen besseren Preis. Schreiben Sie uns einfach, wie viele Sie brauchen.",
@@ -135,7 +135,7 @@ export const de = {
     guest: "Gast: Ihr Hotel",
     lines: [
       { label: "Bewertungsschild", value: "40 €" },
-      { label: "Tischständer", value: "50 €" },
+      { label: "Tischständer", value: "60 €" },
       { label: "Ab mehreren Stück", value: "Mengenrabatt", divider: true },
       { label: "Einrichtung Google-Link", value: "0 €", free: true },
       { label: "Monatliches Abo", value: "0 €", free: true },

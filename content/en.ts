@@ -80,7 +80,7 @@ export const en: Dict = {
     cta: "Request a sample",
     items: [
       { name: "Review plate", tag: "Adhesive", price: "€40", features: ["NFC chip: hold the phone close, done", "Sticks to counters, tables, glass or walls", "Design in German or English", "Preconfigured with your Google link"] },
-      { name: "Countertop stand", tag: "For reception and buffet", price: "€50", features: ["NFC + QR code", "Black acrylic, premium finish", "Design in German or English", "Preconfigured with your Google link"] },
+      { name: "Countertop stand", tag: "For reception and buffet", price: "€60", features: ["NFC + QR code", "Black acrylic, premium finish", "Design in German or English", "Preconfigured with your Google link"] },
     ],
     volume: "Need several? There's a volume discount.",
     volumeSub: "For multiple plates or stands we're happy to give you a better price. Just tell us how many you need.",
@@ -135,7 +135,7 @@ export const en: Dict = {
     guest: "Guest: your hotel",
     lines: [
       { label: "Review plate", value: "€40" },
-      { label: "Countertop stand", value: "€50" },
+      { label: "Countertop stand", value: "€60" },
       { label: "Several pieces", value: "Volume discount", divider: true },
       { label: "Google link setup", value: "€0", free: true },
       { label: "Monthly subscription", value: "€0", free: true },
