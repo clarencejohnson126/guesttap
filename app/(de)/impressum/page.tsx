@@ -75,7 +75,7 @@ export default function Page() {
       <p>
         Die auf diesen Seiten erstellten Inhalte und Werke, insbesondere Texte, Grafiken, Produktvisualisierungen und Fotos, unterliegen dem deutschen Urheberrecht. Die
         Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen unserer schriftlichen Zustimmung. Soweit Inhalte
-        auf dieser Seite nicht von uns erstellt wurden, werden die Urheberrechte Dritter beachtet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
+        auf dieser Seite nicht von uns erstellt wurden, werden die Urheberrechte Dritter beachtet. Solltet ihr trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
         bitten wir um einen Hinweis per E-Mail. Bei Bekanntwerden von Rechtsverletzungen entfernen wir derartige Inhalte umgehend.
       </p>
 
