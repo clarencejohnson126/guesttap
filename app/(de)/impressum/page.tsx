@@ -25,6 +25,8 @@ export default function Page() {
 
       <h2>Kontakt</h2>
       <p>
+        Telefon: <a className="underline" href={`tel:${site.phone.replace(/\s/g, "")}`}>{site.phone}</a>
+        <br />
         E-Mail: <a className="underline" href={`mailto:${site.email}`}>{site.email}</a>
         <br />
         Anfragen beantworten wir in der Regel innerhalb von 24 Stunden.

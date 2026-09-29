@@ -20,6 +20,8 @@ export default function Page() {
         <br />
         {company.street}, {company.zip} {company.city}, {company.country}
         <br />
+        Telefon: {site.phone}
+        <br />
         E-Mail: <a className="underline" href={`mailto:${site.email}`}>{site.email}</a>
       </p>
       <p>Ein Datenschutzbeauftragter ist nicht bestellt, da die gesetzlichen Voraussetzungen hierfür (§ 38 BDSG) nicht vorliegen.</p>
