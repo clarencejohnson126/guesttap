@@ -15,6 +15,8 @@ export const site = {
   name: "GuestTap",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://guesttap.de",
   email: "clarencejohnson@hotmail.de",
+  /** Telefonnummer, z. B. "+49 621 123456". Leer = wird nicht angezeigt. */
+  phone: "",
   region: "Mannheim",
 };
 

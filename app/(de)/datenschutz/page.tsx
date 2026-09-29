@@ -76,11 +76,10 @@ export default function Page() {
         wird keine Verbindung zu Google Fonts oder anderen externen Schriftanbietern aufgebaut.
       </p>
 
-      <h2>7. Kontakt per E-Mail und Anfrageformular</h2>
+      <h2>7. Kontakt per E-Mail oder Telefon</h2>
       <p>
-        Das Anfrageformular auf dieser Seite speichert und versendet keine Daten. Es öffnet lediglich Ihr eigenes E-Mail-Programm mit einer vorbereiteten Nachricht, die Sie
-        selbst absenden. Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir die von Ihnen mitgeteilten Daten (zum Beispiel Name, E-Mail-Adresse, Name des Hotels, Inhalt der
-        Nachricht), um Ihre Anfrage zu bearbeiten, ein Angebot zu erstellen und Rückfragen zu beantworten.
+        Auf dieser Website gibt es kein Kontaktformular. Wenn Sie uns per E-Mail oder telefonisch kontaktieren, verarbeiten wir die von Ihnen mitgeteilten Daten (zum Beispiel
+        Name, E-Mail-Adresse, Telefonnummer, Name des Hotels, Inhalt der Nachricht), um Ihre Anfrage zu bearbeiten, ein Angebot zu erstellen und Rückfragen zu beantworten.
       </p>
       <p>
         Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit Ihre Anfrage mit der Anbahnung oder Durchführung eines Vertrags zusammenhängt, und im Übrigen Art. 6 Abs. 1 lit.
