@@ -30,7 +30,7 @@ export const en: Dict = {
     cta1: "See samples",
     cta2: "Request for my hotel",
     chips: ["No app", "No subscription", "Preconfigured"],
-    note: "Handmade in Mannheim. By two people, after hours.",
+    note: "Set up and programmed by two people from Mannheim. After hours.",
   },
   mock: {
     alt: "Black GuestTap countertop stand with QR code and adhesive plate “We would appreciate your Google review!” with NFC symbol",

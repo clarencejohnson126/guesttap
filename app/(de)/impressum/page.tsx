@@ -19,15 +19,19 @@ export default function Page() {
         <br />
         {company.country}
       </p>
-      <p>{company.brand} ist ein Angebot von {company.name}.</p>
+      <p>
+        {company.brand} ist eine Marke und ein Angebot von {company.name}, Einzelunternehmen, Inhaber {company.owner}.
+      </p>
 
       <h2>Kontakt</h2>
       <p>
         E-Mail: <a className="underline" href={`mailto:${site.email}`}>{site.email}</a>
+        <br />
+        Anfragen beantworten wir in der Regel innerhalb von 24 Stunden.
       </p>
 
       <h2>Umsatzsteuer-ID</h2>
-      <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: {company.vatId}</p>
+      <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: {company.vatId}</p>
 
       <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
       <p>
@@ -36,30 +40,57 @@ export default function Page() {
         {company.street}, {company.zip} {company.city}
       </p>
 
-      <h2>Verbraucherstreitbeilegung</h2>
-      <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+      <h2>Zielgruppe</h2>
+      <p>
+        Unser Angebot richtet sich an Unternehmer im Sinne von § 14 BGB, insbesondere an Hotels, Pensionen, Boardinghouses und andere Beherbergungsbetriebe. Ein Verkauf an
+        Verbraucher findet nicht statt.
+      </p>
+
+      <h2>EU-Streitschlichtung und Verbraucherstreitbeilegung</h2>
+      <p>
+        Die Plattform der EU-Kommission zur Online-Streitbeilegung wurde zum 20. Juli 2025 eingestellt. Wir sind nicht bereit und nicht verpflichtet, an
+        Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+      </p>
 
       <h2>Haftung für Inhalte</h2>
       <p>
-        Wir erstellen die Inhalte dieser Seite mit Sorgfalt. Für Richtigkeit, Vollständigkeit und Aktualität können wir trotzdem keine Gewähr übernehmen. Als Diensteanbieter
-        sind wir für eigene Inhalte nach den allgemeinen Gesetzen verantwortlich. Sobald uns eine Rechtsverletzung bekannt wird, entfernen wir den betreffenden Inhalt umgehend.
+        Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Wir erstellen die Inhalte mit größtmöglicher Sorgfalt,
+        übernehmen jedoch keine Gewähr für Richtigkeit, Vollständigkeit und Aktualität. Wir sind nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu
+        überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen
+        nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine Haftung ist erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Sobald uns
+        entsprechende Rechtsverletzungen bekannt werden, entfernen wir diese Inhalte umgehend.
       </p>
 
       <h2>Haftung für Links</h2>
       <p>
-        Diese Seite enthält Links zu externen Websites, auf deren Inhalte wir keinen Einfluss haben. Für diese Inhalte ist der jeweilige Anbieter verantwortlich. Bei
-        Bekanntwerden von Rechtsverletzungen entfernen wir solche Links umgehend.
+        Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte übernehmen wir keine Gewähr. Für die
+        Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche
+        Rechtsverstöße geprüft; rechtswidrige Inhalte waren zu diesem Zeitpunkt nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist ohne konkrete
+        Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen entfernen wir derartige Links umgehend.
       </p>
 
       <h2>Urheberrecht</h2>
       <p>
-        Texte, Grafiken und Fotos auf dieser Seite unterliegen dem deutschen Urheberrecht. Eine Vervielfältigung oder Verwendung außerhalb dieser Seite ist nur mit unserer
-        Zustimmung erlaubt.
+        Die auf diesen Seiten erstellten Inhalte und Werke, insbesondere Texte, Grafiken, Produktvisualisierungen und Fotos, unterliegen dem deutschen Urheberrecht. Die
+        Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen unserer schriftlichen Zustimmung. Soweit Inhalte
+        auf dieser Seite nicht von uns erstellt wurden, werden die Urheberrechte Dritter beachtet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
+        bitten wir um einen Hinweis per E-Mail. Bei Bekanntwerden von Rechtsverletzungen entfernen wir derartige Inhalte umgehend.
       </p>
+
+      <h2>Bildnachweis</h2>
+      <p>Grafiken, Produktdarstellungen und Szenenbilder: {company.name}. Die Szenenbilder dienen der Veranschaulichung des Einsatzes unserer Produkte.</p>
 
       <h2>Markenhinweis</h2>
       <p>
-        {company.brand} ist ein unabhängiges Unternehmen und steht in keiner Verbindung zu Google LLC. Google und das Google-Logo sind Marken der Google LLC.
+        {company.brand} ist ein unabhängiges Unternehmen und steht in keiner Verbindung zu Google LLC. {company.brand} wird von Google weder gesponsert noch unterstützt oder
+        genehmigt. Google, Google Maps und das Google-Logo sind Marken der Google LLC. Alle weiteren genannten Marken sind Eigentum ihrer jeweiligen Inhaber. Die Nennung dient
+        ausschließlich der Beschreibung der Funktionsweise unserer Produkte.
+      </p>
+
+      <h2>Abmahnungen</h2>
+      <p>
+        Sollten Inhalte oder die Gestaltung dieser Seite fremde Rechte oder gesetzliche Bestimmungen verletzen, bitten wir um eine entsprechende Nachricht ohne Kostennote. Wir
+        werden berechtigte Beanstandungen unverzüglich beheben, ohne dass die Einschaltung eines Rechtsbeistandes erforderlich ist.
       </p>
     </LegalPage>
   );

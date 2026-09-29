@@ -30,7 +30,7 @@ export const de = {
     cta1: "Muster ansehen",
     cta2: "Für mein Hotel anfragen",
     chips: ["Keine App", "Kein Abo", "Fertig eingerichtet"],
-    note: "Handgemacht in Mannheim. Von zwei Leuten, nach Feierabend.",
+    note: "Eingerichtet und programmiert von zwei Leuten aus Mannheim. Nach Feierabend.",
   },
   mock: {
     alt: "Schwarzer GuestTap Tischständer mit QR-Code und Klebeschild „Wir würden uns freuen über Ihre Google-Bewertung!“ mit NFC-Symbol",
