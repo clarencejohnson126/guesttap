@@ -26,7 +26,7 @@ export const company = {
   name: "Johnson Services",
   owner: "Clarence Johnson",
   street: "George-Washington-Straße 219",
-  zip: "68300",
+  zip: "68309",
   city: "Mannheim",
   country: "Deutschland",
   vatId: "DE452125652",
