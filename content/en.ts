@@ -159,7 +159,7 @@ export const en: Dict = {
       { k: "MA", v: "Rhein-Neckar" },
     ],
     photo: "Team photo coming soon",
-    photoAlt: "The GuestTap team",
+    photoAlt: "The GuestTap team in a hotel corridor with a review plate and phone",
   },
   faq: {
     eyebrow: "FAQ",

@@ -298,9 +298,9 @@ export function Landing({ t, locale }: { t: Dict; locale: Locale }) {
         {/* ================= TEAM ================= */}
         <section className="bg-sand/60 py-24 sm:py-32">
           <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
-            <div data-reveal className="relative mx-auto w-full max-w-sm">
+            <div data-reveal className="relative mx-auto w-full max-w-[20rem]">
               <div className="rotate-[-3deg] bg-paper p-3 pb-14 shadow-[0_30px_50px_-30px_rgba(23,35,61,0.5)]">
-                <ImageSlot src={images.team} alt={t.team.photoAlt} label={t.team.photo} className="aspect-[4/5]" />
+                <ImageSlot src={images.team} alt={t.team.photoAlt} label={t.team.photo} className="aspect-[941/1672]" sizes="(min-width: 1024px) 20rem, 80vw" />
                 <p className="serif-i absolute bottom-4 left-0 right-0 text-center text-xl text-muted">Mannheim, 2026</p>
               </div>
               <span aria-hidden="true" className="absolute -top-3 left-1/2 h-8 w-28 -translate-x-1/2 rotate-[4deg] bg-star/70" />

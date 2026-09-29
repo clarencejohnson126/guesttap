@@ -159,7 +159,7 @@ export const de = {
       { k: "MA", v: "Rhein-Neckar" },
     ],
     photo: "Teamfoto folgt",
-    photoAlt: "Das GuestTap Team",
+    photoAlt: "Das GuestTap Team im Hotelflur mit Bewertungsschild und Handy",
   },
   faq: {
     eyebrow: "FAQ",
