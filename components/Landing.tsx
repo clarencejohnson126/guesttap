@@ -368,7 +368,6 @@ export function Landing({ t, locale }: { t: Dict; locale: Locale }) {
               <a href="/datenschutz" className="hover:text-star">{t.footer.privacy}</a>
             </nav>
           </div>
-          <p className="mt-10 max-w-2xl text-xs leading-relaxed text-linen/50">{t.footer.legal}</p>
           <div className="mt-6 flex justify-between border-t border-linen/10 pt-6 font-mono text-xs uppercase tracking-[0.18em] text-linen/50">
             <span>© {new Date().getFullYear()} GuestTap</span>
             <span>{t.footer.made}</span>
